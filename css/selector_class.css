@@ -1,0 +1,25 @@
+@import "reset.css";
+
+.list ul li {
+    color: blue;
+}
+
+
+/* 글자설정한 것도 숫자상 포함은 되지만
+   적용은 안됨
+.list ul li:nth-child(5){
+    color:red
+} 
+*/
+
+/* 온전히 리스트에만 설정*/
+.list ul li:nth-of-type(3){
+    color:red
+}
+
+
+
+/*
+
+
+*/
